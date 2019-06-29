@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitchAudioRecognition", "TwitchAudioRecognition.csproj", "{1B6704CE-8A97-4B7A-8233-B7020F8341FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B6704CE-8A97-4B7A-8233-B7020F8341FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6704CE-8A97-4B7A-8233-B7020F8341FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6704CE-8A97-4B7A-8233-B7020F8341FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6704CE-8A97-4B7A-8233-B7020F8341FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D62A59DF-36BB-469E-B1E3-B5E4C9211C48}
+	EndGlobalSection
+EndGlobal

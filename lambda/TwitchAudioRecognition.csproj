@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <AWSProjectType>Lambda</AWSProjectType>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="acrcloud" />
+    <None Remove="ffmpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="acrcloud" />
+    <EmbeddedResource Include="ffmpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.Core" Version="1.1.0" />
+    <PackageReference Include="Amazon.Lambda.Serialization.Json" Version="1.4.0" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.3.101.28" />
+    <PackageReference Include="AWSSDK.S3" Version="3.3.101.16" />
+  </ItemGroup>
+</Project>
