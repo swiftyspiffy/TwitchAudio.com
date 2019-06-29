@@ -16,16 +16,9 @@ namespace TwitchAudioRecognition
     public class Function
     {
         
-        /// <summary>
-        /// A simple function that takes a string and does a ToUpper
-        /// </summary>
-        /// <param name="input"></param>
-        /// <param name="context"></param>
-        /// <returns></returns>
         public void FunctionHandler(string input, ILambdaContext context)
         {
             var req = JsonConvert.DeserializeObject<JobInput>(input);
-            Contact.swiftyspiffy(req.JobId, req.Type, req.Identifier);
 
             Console.WriteLine($"JOB ID: {req.JobId}");
             Console.WriteLine($"JOB TYPE: {req.Type}");
